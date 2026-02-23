@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <body>
+    <h1>Create</h1>
     <form action="/posts" method="post">
         @csrf
         <div>
