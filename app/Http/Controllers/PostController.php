@@ -17,4 +17,8 @@ class PostController extends Controller
         "content"=>$request->input("content")]);
         return "Success";
     }
+    public function index()
+    {
+        return Post::all();
+    }
 }
